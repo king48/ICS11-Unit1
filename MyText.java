@@ -1,4 +1,8 @@
 // The "MyText" class.
+// Juan-Diego Castano 
+// Mr rosen 
+// Tuesday,Febuary 5, 2018
+// This program will look exactly like what is given to us on the sheet for the first   
 import java.awt.*;
 import hsa.Console;
 // The "My Text" class
@@ -10,9 +14,8 @@ public class MyText
     {
 	c = new Console ();
     }
-
-
-    public void output ()
+    
+    public void output () // output  
     {
 	c.print (' ', 36);
 	c.println ("Designs");
@@ -60,7 +63,9 @@ public class MyText
 
 	c.print (' ', 37);
 	c.println ("LLELOGRAM");
-	
+    }
+
+
     public static void main (String[] args)
     {
 	MyText t = new MyText ();
