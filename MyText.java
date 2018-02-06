@@ -14,11 +14,53 @@ public class MyText
 
     public void output ()
     {
-	c.println ("Text in Java");
-	c.println ("is called a string");
-    }
+	c.print (' ', 36);
+	c.println ("Designs");
 
+	c.print (' ', 39);
+	c.println ("D");
 
+	c.print (' ', 38);
+	c.println ("III");
+
+	c.print (' ', 37);
+	c.println ("AAAAA");
+
+	c.print (' ', 36);
+	c.println ("MMMMMMM");
+
+	c.print (' ', 37);
+	c.println ("OOOOO");
+
+	c.print (' ', 38);
+	c.println ("NNN");
+
+	c.print (' ', 39);
+	c.println ("D");
+
+	c.println (" ");
+
+	c.print (' ', 33);
+	c.println ("PARALLELO");
+
+	c.print (' ', 34);
+	c.print ("A");
+	c.print (' ', 7);
+	c.println ("G");
+
+	c.print (' ', 35);
+	c.print ("R");
+	c.print (' ', 7);
+	c.println ("R");
+
+	c.print (' ', 36);
+	c.print ("A");
+	c.print (' ', 7);
+	c.println ("A");
+
+	c.print (' ', 37);
+	c.println ("LLELOGRAM");
+	
     public static void main (String[] args)
     {
 	MyText t = new MyText ();
